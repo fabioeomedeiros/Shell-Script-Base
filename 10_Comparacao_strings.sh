@@ -8,3 +8,8 @@
 # -n -> não vazia
 # -z -> vazia
 
+nome=medeiros
+if [ $USER = $nome ]
+then
+	echo "Olá $nome"
+fi
