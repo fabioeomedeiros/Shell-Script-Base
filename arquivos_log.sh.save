@@ -1,0 +1,4 @@
+# Cria arquivos de log usando redirecionamento de saídas
+
+ext=`date +%y%m%d%H%M`
+ls -la $HOME > $HOME/Git-Hub//home/medeiros/Git-Hub/Python-Base/028_Jogo_da_adivinhacao_v1.pylog.$ext
